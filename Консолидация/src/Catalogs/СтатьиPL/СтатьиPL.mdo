@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad4f9408-824e-42c8-89f5-0778490f08d3">
+  <producedTypes>
+    <objectType typeId="690a218b-ef95-4993-9d4c-70c4cc27ee5d" valueTypeId="0c10d547-f151-44c0-a3fc-87f61fef9a01"/>
+    <refType typeId="8ed3fd45-a1b4-44a1-b4d8-db3371379a4e" valueTypeId="3adaf0c3-d20d-4c24-8b02-8aa33aa76eed"/>
+    <selectionType typeId="2585850a-4909-406a-afd6-34e9276c0d7c" valueTypeId="be93b30e-2054-4d28-a7fe-263538b3eef8"/>
+    <listType typeId="451e1c45-69e6-42bb-bb86-507512180557" valueTypeId="53b0c8d4-e10c-44d3-92ef-d814ac1e2cb1"/>
+    <managerType typeId="f1328561-4506-4b52-83fc-942eac285d4c" valueTypeId="b8240418-d80d-4b8e-87c1-3c556aa77993"/>
+  </producedTypes>
+  <name>СтатьиPL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи PL</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатьиPL.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СтатьиPL.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтатьиPL.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СтатьиPL.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="3cfc8a8d-e6f8-48d7-9100-ae063aee08c0">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="bf9bde19-2ff7-4979-b08c-4941dc46b7e2">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="eb87f085-271e-4c59-a1a2-91f9115d09cf">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

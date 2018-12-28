@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf6019ed-661a-4482-85ad-927ed46d389e">
+  <producedTypes>
+    <objectType typeId="447ac665-dbd8-48ac-a564-f8d085df4930" valueTypeId="1dc85648-a4af-43ad-8023-8997b650683f"/>
+    <refType typeId="7cc5da0a-ef39-4deb-8974-ceb83a9d14cc" valueTypeId="6c24bd6f-eaba-486a-b7a3-fe4ba6a9637d"/>
+    <selectionType typeId="44dd6810-6166-466a-bf55-39d7be66a8f7" valueTypeId="86cd3114-af9a-4e69-a977-e393b6bfdc94"/>
+    <listType typeId="ab2f469f-4464-4a53-8957-6e7994e695b1" valueTypeId="ca5cf710-417b-4b95-b507-c1066a470552"/>
+    <managerType typeId="e9fc653c-1f17-45d5-a125-8fe1e2d50856" valueTypeId="4a42a870-9b10-4fdc-a631-124ed54e5af7"/>
+  </producedTypes>
+  <name>КорректировкиIFRS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корректировки IFRS</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КорректировкиIFRS.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.КорректировкиIFRS.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.КорректировкиIFRS.Form.ФормаСписка</defaultListForm>
+  <registerRecords>InformationRegister.Корректировки</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="945f99eb-7db4-43b0-8677-4401070e6b55">
+    <name>Коментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="95c74a9d-acc1-4287-a93a-47a71bbb086b">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аналитика</types>
+    </type>
+    <choiceParameters>
+      <name>Отбор.Тип</name>
+      <value xsi:type="core:StringValue">
+        <value>Организации</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="eccba737-6e6b-4e64-9f10-369590c8f29e">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f787f785-b363-45c2-8e45-f88d354adaec">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="cc7423ff-7a81-490d-8d59-11de4a8e063e">
+    <producedTypes>
+      <objectType typeId="ba3c121c-7bfd-4b0c-8ae2-3d374fe8b348" valueTypeId="0d1fa377-ad79-4a81-b985-15f63fd1d9eb"/>
+      <rowType typeId="f4f95e44-0a35-47ab-82e9-1aa3b8595e85" valueTypeId="bdd00d7b-6ecb-47f3-b601-5905ec49e837"/>
+    </producedTypes>
+    <name>КорректировкиPL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировки PL</value>
+    </synonym>
+    <attributes uuid="58aa1215-fb30-404c-9dff-186c524414ee">
+      <name>Статья</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатьиPL</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="09352bb2-3b42-40db-a4c3-a4f68648780f">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="1d26315a-3c5e-48d4-a54e-f957c0e8ebdd">
+      <name>Коментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Коментарий</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="b2a319d0-0282-4667-b907-924cf6ab31c6">
+      <name>ДатаНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="e539807c-f658-4698-ad08-37f6fd9aee4e">
+      <name>ДатаОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2da1a8c-6252-48bc-9941-1574dae59055">
+  <name>PL</name>
+  <synonym>
+    <key>ru</key>
+    <value>P&amp;L</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.СтатьиPL</content>
+  <content>InformationRegister.ДанныеОтчетаPL</content>
+  <content>Document.ЗагрузкаДанныхPL</content>
+  <content>Catalog.Аналитика</content>
+  <content>InformationRegister.СоответствияОбъектовИнформационныхБаз</content>
+  <content>Report.ОтчетPL</content>
+  <content>Document.КорректировкиIFRS</content>
+</mdclass:Subsystem>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3460777c-ea9b-43b0-89a3-909a938f0e35">
+  <producedTypes>
+    <objectType typeId="ee9855cb-baf0-4421-8997-2d4864f22f27" valueTypeId="8faa7fb1-34bd-4960-8eb4-232ae9d745e0"/>
+    <refType typeId="1d84693d-3f9f-4243-ad49-979eeb21e79e" valueTypeId="8b2c5ff3-3f1f-49b1-a023-329b422733e9"/>
+    <selectionType typeId="e8892fc0-0662-4aca-9501-72d0f378cb16" valueTypeId="af456f95-6c33-41b9-8d84-b1e7b26616b2"/>
+    <listType typeId="66468b72-d8e7-48dc-b8c6-77e0b87b32c0" valueTypeId="1360203d-d7ef-4423-821c-3f43424e87c3"/>
+    <managerType typeId="efd4e793-f3a6-41ba-8dcb-ac17c205f50c" valueTypeId="31da9430-0586-4968-b8db-71f316254510"/>
+  </producedTypes>
+  <name>Базы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Базы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Базы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Базы.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="326cd818-6864-4fe6-81f5-3de34d26cd62">
+    <name>СтрокаПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка подключения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fba48483-c7ef-4e99-8574-436fd219e87d">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="48850095-c7f9-4a3a-89ad-2d536f7df4b4">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="1efade41-2e5d-46b9-95ec-14119badecbc">
+    <producedTypes>
+      <objectType typeId="cc27a09e-0f2e-4ec9-8b59-a5f5cc3bd1ab" valueTypeId="4d87317c-538b-4512-b475-6a5c1394a8f1"/>
+      <rowType typeId="c5e823d6-ed77-45bd-8467-621313e7736c" valueTypeId="1ee94a96-63d2-401e-af52-dcb5c5dace96"/>
+    </producedTypes>
+    <name>Организации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации</value>
+    </synonym>
+    <attributes uuid="f61e6f7e-c77b-4791-b0fc-817a62d06b13">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Аналитика</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f9ed10a4-e195-4d94-a693-234b94569f30">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

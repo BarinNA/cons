@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fafa9327-d098-4abe-bbd5-5a5643d35c11">
+  <producedTypes>
+    <selectionType typeId="100017ee-6074-4c88-bfac-a3888d8a8628" valueTypeId="630b29a1-801e-422c-9e69-da31f2e8e811"/>
+    <listType typeId="b1f34699-a2e8-41d8-9b5e-8cf445d7425c" valueTypeId="f7cfb4a7-2854-40ac-bc97-c5f3423c1269"/>
+    <managerType typeId="531b05ab-8c1a-46e0-b9d5-40efbab399b1" valueTypeId="353f23a3-feea-4ace-9596-628c65da3884"/>
+    <recordSetType typeId="5fcbc530-00b8-4fc2-a153-ee5fe931c33f" valueTypeId="3254ca27-574c-486e-8834-9cde168c2a85"/>
+    <recordKeyType typeId="74e293ec-4f67-4cac-b974-ef9aab1d2e03" valueTypeId="e6e4b5b1-5a23-4f85-851a-a7be03a741b5"/>
+    <recordType typeId="eeccd1e5-76f1-478c-ad36-2681830cbd31" valueTypeId="16597d54-6b36-4453-9c96-2174a59b6038"/>
+    <recordManagerType typeId="20e275a7-124b-4ef6-985e-95bba4b611e1" valueTypeId="67e2ec6c-8589-4913-8905-0d5b5041d0d0"/>
+  </producedTypes>
+  <name>СоответствияОбъектовИнформационныхБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствия объектов информационных баз</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f0d2300b-e5a4-4555-b755-e43d68fe6f17">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аналитика</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="899940a4-e427-4f21-b90e-85cb16434448">
+    <name>База</name>
+    <synonym>
+      <key>ru</key>
+      <value>База</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Базы</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7ddb7a54-df24-46e9-87bd-ecf890d313c5">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c9d31975-9020-42c3-8d1a-11c26e304665">
+    <name>ИДисточник</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИД источник</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

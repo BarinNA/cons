@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4df3c55-c1ed-4a90-a91a-dc4b2f5a15f0">
+  <producedTypes>
+    <selectionType typeId="ba552d63-8391-429a-91e4-5ce658f46e83" valueTypeId="311d7e76-7c12-407a-815d-d3873159d96f"/>
+    <listType typeId="38c09fa7-bd63-4da9-90ba-702f57890813" valueTypeId="e3ab59b2-74ff-45a0-a365-f2901b1cb6ae"/>
+    <managerType typeId="56994b0d-65ec-4f6f-97cb-dfafabc4db64" valueTypeId="e141d6f2-40d3-4b82-9ff4-db645fcb22a6"/>
+    <recordSetType typeId="aefb0925-a8af-4088-8567-fda09331c629" valueTypeId="69fad546-51b6-4d75-b213-10300f2df6cf"/>
+    <recordKeyType typeId="874d3442-2de9-4d8d-af75-c85e2b584f30" valueTypeId="140681ea-5ae8-44f8-8ced-f0236699f963"/>
+    <recordType typeId="110cc7f4-8cd9-446d-8ddb-84ceacd1f004" valueTypeId="c4805195-90d2-4f06-9a3b-0ab83a5a1a0f"/>
+    <recordManagerType typeId="667bf990-5114-461a-8b66-a32c5f38fced" valueTypeId="3160d909-eb79-4eb9-9666-fc5bc7547388"/>
+  </producedTypes>
+  <name>Корректировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корректировки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d0f42191-fe3a-4a08-bcd3-ef9c026a6fd5">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>20</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="b4b8b2d2-84d4-4d93-94fc-b1368b39e23a">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аналитика</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1858adb3-e92d-40b8-be2a-ea2c14b92a7e">
+    <name>Статья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиPL</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a2d9fa41-930e-469e-9b81-35656ebd541c">
+    <name>ВидОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид отчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыОтчетов</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

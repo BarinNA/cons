@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e64e9ca7-5d59-49fb-8abb-2eeba42e6e6a">
+  <producedTypes>
+    <refType typeId="ba446fa5-2a91-44f0-9851-6009fe65b28a" valueTypeId="78064974-5b09-445d-8ea5-e01d2a14b85b"/>
+    <listType typeId="cb314863-1845-43f7-8d40-2169bdafb431" valueTypeId="cbb58c78-6343-4cb2-8dca-0ce8534765b2"/>
+    <managerType typeId="b2c844af-87e8-43d5-bc96-5cc30325cafa" valueTypeId="7af7b7e4-c8aa-472d-9ae0-3f4df2e51b7b"/>
+  </producedTypes>
+  <name>ВидыОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды отчетов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b1fa5644-6776-4485-8537-955edcf88ff1">
+    <name>PL</name>
+    <synonym>
+      <key>ru</key>
+      <value>PL</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="54fd73e3-02e9-4fb0-a841-8ea397ada633">
+    <name>BS</name>
+    <synonym>
+      <key>ru</key>
+      <value>BS</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="17d415b7-a00d-4d90-b2aa-a8c8b150dc4b">
+    <name>CF</name>
+    <synonym>
+      <key>ru</key>
+      <value>CF</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

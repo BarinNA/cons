@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ccf40367-7643-40f2-8ee5-b76b22aae4b6">
+  <producedTypes>
+    <selectionType typeId="67aa02b0-6ae9-44f0-806a-babc6ed1dfd5" valueTypeId="d939368b-47de-4dcd-8ae8-a36c000d1ecc"/>
+    <listType typeId="e2f07c71-ac29-4020-9b6b-ba8e9588f831" valueTypeId="d988650e-62c8-44cd-898d-6536553305ca"/>
+    <managerType typeId="af5facce-4a91-46f0-85c7-962c705107cc" valueTypeId="c0283701-d4f8-4c9e-99db-12ff8051925c"/>
+    <recordSetType typeId="5cf2672c-e74d-46de-bf42-01091be49679" valueTypeId="008b8ea7-287e-42fe-86fb-ce25de7c675e"/>
+    <recordKeyType typeId="52ee069b-2ecc-4311-be54-909e5f698335" valueTypeId="ed5baddb-cb75-4c64-9644-373d72f892e2"/>
+    <recordType typeId="8a488d86-70ef-4a43-9af8-4c90af4391db" valueTypeId="acc1af76-2148-4a04-84cb-363757c86984"/>
+    <recordManagerType typeId="21ddca4b-642b-41bd-a870-7a16f813d484" valueTypeId="8801f5cc-4fce-4c30-afdc-d7cf37397d52"/>
+  </producedTypes>
+  <name>ДанныеОтчетаPL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные отчета PL</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6b326f62-45b3-4c4d-b1de-7f1f66463537">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>20</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="ce8c9509-5955-4e3b-ac6b-a3e59340987b">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аналитика</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7981c735-0e9f-40e5-85a4-9cf7f7e092ef">
+    <name>СтатьяPL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья PL</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиPL</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="267bd674-0b9f-4898-b5c7-3aab59bafe4e">
+    <name>Аналитика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналитика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аналитика</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7f92118d-5f32-44c5-a97e-63099560905e">
+    <name>Остаток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остаток</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

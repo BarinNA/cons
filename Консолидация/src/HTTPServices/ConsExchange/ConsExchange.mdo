@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67839012-1705-4d9f-9e6c-184f67a96dde">
+  <name>ConsExchange</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cons exchange</value>
+  </synonym>
+  <rootURL>ConsExchange</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="107588d5-ee5c-468e-8d89-f383f79a7f66">
+    <name>UploadData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Upload data</value>
+    </synonym>
+    <template>/UploadData</template>
+    <methods uuid="27e6b259-7fe8-4389-a4ab-00bd01d71291">
+      <name>Post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>UploadDataPost</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

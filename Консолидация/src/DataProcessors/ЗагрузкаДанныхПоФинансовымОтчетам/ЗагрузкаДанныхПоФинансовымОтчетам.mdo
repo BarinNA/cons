@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46e669cc-94bb-4530-903c-2f42cc110519">
+  <producedTypes>
+    <objectType typeId="e7d24760-5119-4979-9489-255d2c9c4607" valueTypeId="0d29e353-58b2-403d-a543-78dc0757525f"/>
+    <managerType typeId="91e35f91-5f81-4706-9dc4-b6ef036d7674" valueTypeId="2798834d-ae2b-4298-a135-f8d8d6f03f1c"/>
+  </producedTypes>
+  <name>ЗагрузкаДанныхПоФинансовымОтчетам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка данных по финансовым отчетам</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаДанныхПоФинансовымОтчетам.Form.Форма</defaultForm>
+  <forms uuid="56e1207f-f932-4013-b1e0-ad2bdb7fb7ba">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

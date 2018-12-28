@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42e1de17-18e9-4ce2-82f7-26df420b1b84">
+  <name>Конфигурация</name>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="6d25fd44-7987-4d8c-9de2-f6ace00d01b7"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="fae80dc8-4a41-4967-bc44-e90803c74e9e"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="9e72efb3-4d12-4976-ae39-fa4d2fee4638"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="45ccb5e3-2737-49a3-8130-0503fb8c13ff"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="cdb62199-0201-4bae-addb-c72b1abba76f"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="23c21e25-9387-4765-94a2-64044f26436b"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor></vendor>
+  <version></version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
+  <languages uuid="f142b0bf-7f91-4f32-8d15-8e33cc08a3f2">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.PL</subsystems>
+  <subsystems>Subsystem.Настройки</subsystems>
+  <commonPictures>CommonPicture.ПиктограммыЗагрузки</commonPictures>
+  <commonModules>CommonModule.ЗагрузкаДанных</commonModules>
+  <commonModules>CommonModule.РаботаСДатойЗапрета</commonModules>
+  <commonModules>CommonModule.РаботаСHTTPСервисами</commonModules>
+  <commonModules>CommonModule.РаботаСJSON</commonModules>
+  <commonModules>CommonModule.РаботаСАналитикой</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <httpServices>HTTPService.ConsExchange</httpServices>
+  <scheduledJobs>ScheduledJob.ОбновлениеИсторииДанных</scheduledJobs>
+  <constants>Constant.ДатаЗапрета</constants>
+  <constants>Constant.ИмяХоста</constants>
+  <catalogs>Catalog.СтатьиPL</catalogs>
+  <catalogs>Catalog.Аналитика</catalogs>
+  <catalogs>Catalog.Базы</catalogs>
+  <documents>Document.ЗагрузкаДанныхPL</documents>
+  <documents>Document.КорректировкиIFRS</documents>
+  <enums>Enum.ВидыОтчетов</enums>
+  <reports>Report.ОтчетPL</reports>
+  <dataProcessors>DataProcessor.НастройкиРаботыСБазой</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаДанныхПоФинансовымОтчетам</dataProcessors>
+  <informationRegisters>InformationRegister.ДанныеОтчетаPL</informationRegisters>
+  <informationRegisters>InformationRegister.ПериодыЗагрузкиОтчетов</informationRegisters>
+  <informationRegisters>InformationRegister.СоответствияОбъектовИнформационныхБаз</informationRegisters>
+  <informationRegisters>InformationRegister.Корректировки</informationRegisters>
+</mdclass:Configuration>

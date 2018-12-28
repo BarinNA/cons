@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cc2b1f8-caa1-4cd4-a5f8-0e7a10cd10be">
+  <producedTypes>
+    <managerType typeId="bae52243-06f2-4aaa-8113-703c8f9e782c" valueTypeId="7142104f-64ec-46a8-9b84-312c25ed039b"/>
+    <valueManagerType typeId="11906ce6-f12a-4028-b786-0dc4ff28a5ec" valueTypeId="78f55753-705b-4dfd-bd1b-3bc77e25fa1c"/>
+  </producedTypes>
+  <name>ДатаЗапрета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата запрета</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

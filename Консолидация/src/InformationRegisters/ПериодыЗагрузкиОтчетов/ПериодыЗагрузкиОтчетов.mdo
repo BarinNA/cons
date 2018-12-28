@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfd45e5a-7b67-4afe-bb52-2402ec83156a">
+  <producedTypes>
+    <selectionType typeId="01ba06d2-87b6-4653-9f0f-b25169057ec2" valueTypeId="6cec4698-1220-45a1-b3be-9ae00a58ec90"/>
+    <listType typeId="e6c2a58c-9a93-4260-81e0-9fb4170939df" valueTypeId="59f6e371-a112-41f0-9dc5-342bd83a2376"/>
+    <managerType typeId="f23b6757-e286-49b4-aca4-cb993ae47081" valueTypeId="94c48acc-1a9c-4095-a95c-54d5426ab817"/>
+    <recordSetType typeId="54b9cfc5-878f-40e1-a3ba-2343d738601b" valueTypeId="3e5ca5fb-afad-41f1-a9d6-3e5afb68ac3e"/>
+    <recordKeyType typeId="7c21f0c9-52d6-4d5e-be2f-9925b70c2fcb" valueTypeId="cbdd4b94-854f-4eeb-b926-8f043e65ac8c"/>
+    <recordType typeId="fd90873d-1ad5-401d-9d62-96fbab4a7a9d" valueTypeId="caa28ed3-da02-446a-baea-4bf21ec87bdb"/>
+    <recordManagerType typeId="a68dd796-aca1-480c-98d9-92be1522b00a" valueTypeId="4d43c543-83ff-4bb6-9e03-71d6b89c7b15"/>
+  </producedTypes>
+  <name>ПериодыЗагрузкиОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периоды загрузки отчетов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="99fdc8af-dc66-4f35-89ec-1358bd29c784">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="4f735f7c-4a30-4c41-ba85-bd7837b79af7">
+    <name>База</name>
+    <synonym>
+      <key>ru</key>
+      <value>База</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Базы</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f4c04cdd-6eea-4bbb-94a3-de617ba28f68">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аналитика</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7b92117a-6112-40c2-9c56-dba7db0a7910">
+    <name>ВидОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид отчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыОтчетов</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

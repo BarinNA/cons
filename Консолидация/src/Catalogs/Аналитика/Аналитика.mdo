@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca4beb7e-f2ea-473e-96fa-e659384573e2">
+  <producedTypes>
+    <objectType typeId="efd58775-75db-49ca-8c68-13dde6201d2e" valueTypeId="b66d54ea-39db-4710-8215-5c6a2ac793f7"/>
+    <refType typeId="86744074-8179-492d-88c7-e190a915a3eb" valueTypeId="281f71df-81b6-4d02-9fac-ef4de829b40b"/>
+    <selectionType typeId="cebc61fb-2520-4bdb-9ff4-a698982a9843" valueTypeId="f8148e73-cbe7-43b4-a497-061d82bd666e"/>
+    <listType typeId="c2ad840e-f4db-42d8-b646-eb04c3216b60" valueTypeId="84016598-10e4-46b3-bf71-0aceb97fb1be"/>
+    <managerType typeId="f35a79bb-48c8-4fa6-8e06-035706b7ead2" valueTypeId="5e75838a-f352-4131-92f6-7da0fcd201f6"/>
+  </producedTypes>
+  <name>Аналитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналитика</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Аналитика.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Аналитика.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ea79bf71-822c-47fc-891a-6593e626fd7b">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
